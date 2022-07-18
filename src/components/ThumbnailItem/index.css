@@ -1,0 +1,36 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.thumbnail-images-container {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.thumbnail-image {
+  height: 110px;
+  width: 110px;
+  color: #64748b;
+  opacity: 0.5;
+}
+.thumbnail {
+  height: 110px;
+  width: 110px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+@media screen and (max-width: 766px) {
+  .thumbnail-image {
+    height: 55px;
+    width: 55px;
+    margin-bottom: 20px;
+  }
+  .thumbnail-images-container {
+    margin-right: 10px;
+  }
+  .thumbnail {
+    height: 55px;
+    width: 55px;
+  }
+}
